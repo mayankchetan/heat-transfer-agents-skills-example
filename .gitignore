@@ -1,0 +1,12 @@
+# Secrets — never commit the LiteLLM key
+.env
+
+# Large / generated artifacts
+data/*.pdf
+data/chroma/
+figures/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
